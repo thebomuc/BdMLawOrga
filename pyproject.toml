@@ -53,5 +53,13 @@ requires-python = "==3.12.*"
 readme = "README.md"
 license = { text = "GNU Affero General Public License v3.0" }
 
-[project.dependencies]
-gunicorn = "^21.2.0"
+[project]
+name = "lawandorga-backend-service"
+version = "0.0.0"
+description = "Law&Orga Backend Service"
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "GNU Affero General Public License v3.0" }
+dependencies = [
+    "gunicorn>=21.2.0"
+]
